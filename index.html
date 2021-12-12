@@ -1,38 +1,96 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles.css">
-    <title>Test</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.png">
+    <title>Car x Base</title>
 </head>
-<body>
-<h1>Test</h1>
-<h1>Test</h1>
-<h1>Test</h1>
-<h1>Hello WOorld</h1>
-<h1>Hello WOorld</h1>
-<h1>Hello WOorld</h1>
+<body data-spy="scroll" data-target=".fixed-top">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <div class="container">
+        <a class="navbar-brand logo-image" href="index.html"><img src="img/logo.png" alt="alternative"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#cars">Cars<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#accessories">Accessories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#clients">Clients</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sold">Sold</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-<div class="container">
-    <select class="form-select" aria-label="Default select example">
-        <option selected>Open this select menu</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
-    </select>
-    <button class="btn btn-outline-info"> Add </button>
-    <button class="btn btn-outline-info"> Update </button>
-    <button class="btn btn-outline-danger"> Delete </button>
+<!-- Header -->
+<header id="header" class="header">
+    <div class="container d-flex justify-content-center">
+        <div class="row">
+            <div class="col-ml ">
+                <div class="text-container">
+                    <h4>This is the base for managing a car dealership</h4>
+                    <hr>
+                    <h6>There is a database of cars, car accessories, customers and sold cars</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<div id="cars">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+               <h3>data base of cars</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="accessories">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>data base of accessories</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="clients">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>data base of clients</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="sold">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>data base of sold cars</h3>
+            </div>
+        </div>
+    </div>
 </div>
 
-<!-- Optional JavaScript; choose one of the two! -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-<!-- Option 1: Bootstrap Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

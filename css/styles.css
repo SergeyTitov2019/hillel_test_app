@@ -1,0 +1,160 @@
+
+/**************************/
+/*     General Styles     */
+/**************************/
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body, p {
+    color: #6b747b;
+    font: 400 1rem/1.625rem "Poppins", sans-serif;
+}
+
+h1 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+    font-family: "Poppins"
+}
+
+h2 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-family: "Poppins"
+}
+
+h3 {
+    color: #000000;
+    font-weight: lighter;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    font-family: "Poppins", sans-serif;
+}
+
+h4 {
+    color: #eee;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h5 {
+    color: #e3e3e3;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    font-family: "Poppins", sans-serif;
+}
+
+h6 {
+    color: #8E8E8E;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.p-large {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.p-small {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+
+
+/*!**********************!*/
+/*!*     Navigation     *!*/
+/*!**********************!*/
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar {
+    background-color: #000000;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025);
+}
+
+.navbar .logo-image img {
+    width: 100px;
+}
+
+.navbar .navbar-nav {
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.navbar .nav-item .nav-link {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    color: #eeeeee;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.2s ease;
+}
+
+.navbar .nav-item .nav-link:hover ,
+.navbar .nav-item .nav-link:active{
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    color: #53BDD4;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.2s ease;
+}
+
+/*!**********************!*/
+/*!*     Header     *!*/
+/*!**********************!*/
+.header {
+    padding-top: 7rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/bg-img.jpeg') center center no-repeat #000;
+    background-size: contain;
+    text-align: center;
+    height: 100vh;
+}
+
+.header .image-container {
+    margin-bottom: 2.75rem;
+}
+
+.header .text-container {
+    margin-bottom: 7rem;
+}
+
+.header h4{
+    text-align: center;
+    width: 30em;
+    margin: 2rem;
+    color: #ffffff;
+}
+ hr{
+    width: 50%;
+    height: 0.05em;
+    background: #e3e3e3;
+}
+
+
+
