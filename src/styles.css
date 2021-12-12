@@ -1,12 +1,25 @@
-.container{
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.select-wrapper{
     width: 80%;
     height: fit-content;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
 }
 button{
     width: 100px;
     margin: 0 0 0 10px;
+}
+
+.products{
+    width: 100%;
+    background-color: #be9e99;
+    height: 200px;
+    margin-top: 15px;
+    border-radius: 5px;
 }
